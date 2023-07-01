@@ -5,6 +5,7 @@ const tags = {
     "sarcastic": "/s",
     "light-hearted": "/lh",
     "genuine question": "/genq",
+    "rhetorical": "/rt",
     "genuine": "/gen",
     "positive": "/pos",
     "negative": "/neg",
@@ -16,7 +17,6 @@ const tags = {
     "lyrics": "/ly",
     "hyperbole": "/hyp",
     "metaphor": "/m",
-    "rhetorical": "/rh",
 }
 
 function tagify(text) {

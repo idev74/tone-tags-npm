@@ -8,6 +8,9 @@
 
 A simple node module that adds and can decipher tone tags on a  piece of text!
 
+## What are tone tags/indicators?
+Tone tags or tone indicators are symbols that can accompany social media posts, comments, and messages. Their purpose is to explicitly state the intent and tone behind the text, often to prevent miscommunication.
+
 ## Installation:
 ``` 
 npm install tone-tags 
@@ -23,6 +26,3 @@ console.log(tone.tagify('This is a joking statement that might be confusing to  
 console.log(tone.decode('What do these tags even mean?? /ly /pos /neg /hyp'));
 // Output: What do these tags even mean?? (lyrics) (positive) (negative) (hyperbole)
 ```
-
-## What are tone tags/indicators?
-Tone tags or tone indicators are symbols that can accompany social media posts, comments, and messages. Their purpose is to explicitly state the intent and tone behind the text, often to prevent miscommunication.

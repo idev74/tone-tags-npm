@@ -1,11 +1,23 @@
 {
-  "name": "tone-tags-npm",
+  "name": "tone-tags",
   "version": "1.0.0",
-  "description": "a node module for tone tagging text",
+  "description": "Adding and deciphering tone identifiers in text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idev74/tone-tags-npm.git"
+  },
+  "keywords": [
+    "tone",
+    "tagging",
+    "text",
+    "accessibility",
+    "tone identifiers",
+    "tone tags"
+  ],
   "author": "Isabella Devassy",
   "license": "ISC"
 }
